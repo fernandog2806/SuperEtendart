@@ -342,10 +342,10 @@ p.integrante-desc {
 
 
 
-@media (min-width: 800px) {
+@media (min-width: 801px) {
     img.integrante-foto {
         position: absolute;
-        /* o absolute o fixed */
+
         z-index: 9999;
         margin-top: 25px;
 
