@@ -48,6 +48,13 @@ a:visited {
     color: #00cfff;
     text-decoration: none;
     transition: color 0.2s;
+    
+    
+}
+a.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* --- Navbar --- */
@@ -76,6 +83,7 @@ a:visited {
     color: #00cfff;
     font-size: 1.1em;
     letter-spacing: 2px;
+    
 }
 
 .nav-links {
@@ -313,9 +321,13 @@ p.integrante-desc {
     display: none;
     visibility: visible;
 }
+
+.integrante-name{
+    justify-content: center;
+}
 /* --- Responsive --- */
 @media (max-width: 1100px) {
-    
+
     section,
     footer,
     .album-card,
@@ -340,6 +352,7 @@ p.integrante-desc {
     }
 
 }
+
 @media (max-width: 800px) {
     .integrantes-cards {
         flex-direction: column;
@@ -354,7 +367,7 @@ p.integrante-desc {
         display: flex;
         position: relative;
         /* o absolute o fixed */
-        z-index: 9999;
+        z-index: 1;
     }
 
     .integrante-card {
