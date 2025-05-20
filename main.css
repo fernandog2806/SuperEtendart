@@ -56,7 +56,7 @@
 
 .silueta-box:hover .silueta-img,
 .silueta-box:focus .silueta-img,
-.silueta-h1:hover {
+.silueta-h1:hover, .logo:hover {
     transform: scale(1.13);
     border-image: linear-gradient(120deg, #ff0000 10%, #ff9900 60%, #ffe066 100%) 1;
     border-width: 6px;
