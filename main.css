@@ -56,7 +56,7 @@
 
 .silueta-box:hover .silueta-img,
 .silueta-box:focus .silueta-img,
-h1:hover {
+.silueta-h1:hover {
     transform: scale(1.13);
     border-image: linear-gradient(120deg, #ff0000 10%, #ff9900 60%, #ffe066 100%) 1;
     border-width: 6px;
@@ -419,6 +419,13 @@ footer {
     .siluetas-container {
         flex-direction: column;
         gap: 32px;
+    }
+    
+    .silueta-h1 {
+        font-size: 2em;
+        margin-bottom: 32px;
+        transform: none !important;
+        text-shadow: 2px 2px 8px #000a;
     }
 
     .silueta-box {
